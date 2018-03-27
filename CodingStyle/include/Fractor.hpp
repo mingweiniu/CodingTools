@@ -22,3 +22,21 @@ void Fractor(int n, std::vector<int> &p, std::vector<int> &k)
 		k.push_back(1);
 	}
 }
+
+void TestFractor()
+{
+	using std::vector;
+	using std::cout;
+	
+	vector<int> p;
+	vector<int> k;
+
+	int x = 213222400;
+	Fractor(x, p, k);
+	// should be 2 ^ 10 * 5 ^ 2 *8329
+	cout << x << " = ";
+	for (int i = 0; i < p.size(); ++i) {
+		cout << p[i] << "^" << k[i] << " ";
+	}
+	cout << '\n';
+}

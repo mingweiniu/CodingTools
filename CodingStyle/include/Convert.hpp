@@ -17,3 +17,16 @@ void Convert(const ostringstreamstring &input, T &output)
 	istringstream iss(input);
 	iss >> output;
 }
+
+
+void TestConvert()
+{
+	int xxx = 555;
+	string yyy;
+	Convert(xxx, yyy);
+
+	yyy += ".666";
+
+	float zzz;
+	Convert(yyy, zzz);
+}

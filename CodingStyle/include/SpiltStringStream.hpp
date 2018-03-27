@@ -6,10 +6,13 @@
 
 std::vector<std::string> SpiltStringStream(std::string input) {
 
-	std::istringstream buffer(input);
-	std::istream_iterator<std::string> begin(buffer), end;
+	using std::istringstream;
+	using std::istream_iterator;
+	using std::string;
+	using std::vector;
 
-	std::vector<std::string> output(begin, end); // done!
+	istringstream buffer(input);
+	istream_iterator<string> begin(buffer), end;
 
-	return output;
+	return vector<string>(begin, end);
 }

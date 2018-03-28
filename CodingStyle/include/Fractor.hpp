@@ -2,6 +2,9 @@
 
 void Fractor(int n, std::vector<int> &p, std::vector<int> &k)
 {
+	p.clear();
+	k.clear();
+	
 	for(int i=2; i<n; ++i)
 	{
 		if( n%i ==0)

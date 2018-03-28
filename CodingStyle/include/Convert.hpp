@@ -12,7 +12,7 @@ void Convert(const T &input, std::string &output)
 template<class T>
 void Convert(const ostringstreamstring &input, T &output)
 {
-	std::istringstream iss(input) >> output;
+	std::istringstream(input) >> output;
 }
 
 

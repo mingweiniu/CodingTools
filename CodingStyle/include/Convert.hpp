@@ -4,8 +4,7 @@
 template<class T>
 void Convert(const T &input, std::string &output)
 {
-	using std::ostringstream;
-	ostringstream oss;
+	std::ostringstream oss;
 	oss << input;
 	output = oss.str();
 }
@@ -13,9 +12,7 @@ void Convert(const T &input, std::string &output)
 template<class T>
 void Convert(const ostringstreamstring &input, T &output)
 {
-	using std::istringstream;
-	istringstream iss(input);
-	iss >> output;
+	std::istringstream iss(input) >> output;
 }
 
 

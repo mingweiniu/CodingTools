@@ -15,9 +15,9 @@
   * no global variable as possible  
   * no functional programming as possible  
   * no RTTI as possible  
+  * no friend keyword
   
-  
-  * use != for bool conversion
+  * use != for bool conversion  
   * use "//" for comment  
   * use return type instead of out parameter as possible  
   * use Trailing Return Type as possible  

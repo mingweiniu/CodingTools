@@ -2,9 +2,10 @@
 
 ## My Naming:
 0. no prefix/postfix systems  
-1. UPPER_CASE FOR MACRO, ENUMERATOR  
+1. UPPER_CASE FOR MACRO, ENUMERATOR, CONST_VALUE  
 2. CapitalCase For TypeName, ClassName, FunctionName, LambdaConatiner  
 3. lower_case for namespace, variable, method, input_parameter  
+4. use Abstract for AbstractClass
 
 ## Preference
   * never focus on anything can be formatted by formatter  

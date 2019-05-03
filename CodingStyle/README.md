@@ -18,6 +18,7 @@
   * no RTTI as possible  
   * no friend keyword
   
+  * use if (true == var) for avoiding missuse =
   * use != for bool conversion  
   * use "//" for comment  
   * use return type instead of out parameter as possible  
